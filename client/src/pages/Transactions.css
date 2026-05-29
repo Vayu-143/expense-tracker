@@ -1,0 +1,195 @@
+.transactions-page{
+  min-height:100vh;
+  background:#0f172a;
+  color:white;
+  padding:40px;
+}
+
+.transactions-page h1{
+  margin-bottom:25px;
+}
+
+/* Form */
+
+.transaction-form{
+  display:grid;
+  grid-template-columns:
+  repeat(auto-fit,minmax(180px,1fr));
+
+  gap:15px;
+  margin-bottom:30px;
+}
+
+.transaction-form input,
+.transaction-form select{
+
+  padding:12px;
+  border:none;
+  border-radius:10px;
+
+  background:#1e293b;
+  color:white;
+}
+
+.transaction-form button{
+
+  background:#3b82f6;
+  color:white;
+
+  border:none;
+  border-radius:10px;
+
+  cursor:pointer;
+  font-weight:bold;
+}
+
+/* Search Filter */
+
+.filter-section{
+  display:flex;
+  gap:15px;
+  margin-bottom:25px;
+}
+
+.filter-section input,
+.filter-section select{
+
+  padding:12px;
+  border:none;
+  border-radius:10px;
+
+  background:#1e293b;
+  color:white;
+}
+
+/* Table */
+
+.transaction-table{
+  width:100%;
+  border-collapse:collapse;
+
+  background:#1e293b;
+  border-radius:15px;
+  overflow:hidden;
+}
+
+.transaction-table th{
+  background:#334155;
+  padding:15px;
+  text-align:left;
+}
+
+.transaction-table td{
+  padding:15px;
+  border-bottom:1px solid #334155;
+}
+
+.transaction-table tr:hover{
+  background:#263449;
+}
+
+/* Delete Button */
+
+.delete-btn{
+
+  background:#ef4444;
+  color:white;
+
+  border:none;
+  border-radius:8px;
+
+  padding:8px 14px;
+  cursor:pointer;
+}
+
+.delete-btn:hover{
+  background:#dc2626;
+}
+
+.edit-btn{
+  background:#3b82f6;
+  color:white;
+  border:none;
+  padding:8px 14px;
+  border-radius:8px;
+  margin-right:10px;
+  cursor:pointer;
+}
+
+.edit-btn:hover{
+  background:#2563eb;
+}
+
+.export-btn{
+  background:#22c55e;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:10px;
+  margin-bottom:20px;
+  cursor:pointer;
+}
+
+.export-btn:hover{
+  background:#16a34a;
+}
+
+.pagination{
+  margin-top:20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+}
+
+.pagination button{
+  background:#3b82f6;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.pagination button:disabled{
+  background:#64748b;
+  cursor:not-allowed;
+}
+
+/* Action Buttons */
+
+.action-buttons{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.edit-btn{
+  background:#3b82f6;
+  color:white;
+  border:none;
+  padding:8px 16px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+  transition:.3s;
+}
+
+.edit-btn:hover{
+  background:#2563eb;
+}
+
+.delete-btn{
+  background:#ef4444;
+  color:white;
+  border:none;
+  padding:8px 16px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+  transition:.3s;
+}
+
+.delete-btn:hover{
+  background:#dc2626;
+}

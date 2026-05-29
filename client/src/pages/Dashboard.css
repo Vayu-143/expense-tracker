@@ -1,0 +1,127 @@
+.dashboard {
+  min-height: 100vh;
+  padding: 40px;
+  background: #0f172a;
+  color: white;
+}
+
+.dashboard h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+/* Cards */
+
+.summary-container {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 16px;
+
+  box-shadow:
+    0 5px 20px rgba(0,0,0,0.3);
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 32px;
+  color: white;
+}
+
+.balance {
+  border-left: 6px solid #3b82f6;
+}
+
+.income {
+  border-left: 6px solid #22c55e;
+}
+
+.expense {
+  border-left: 6px solid #ef4444;
+}
+
+.transactions {
+  border-left: 6px solid #f59e0b;
+}
+
+/* Chart */
+
+.chart-card {
+  margin-top: 40px;
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 16px;
+
+  box-shadow:
+    0 5px 20px rgba(0,0,0,0.3);
+}
+
+.chart-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Budget Warning */
+
+.warning{
+  margin-top:25px;
+  background:#ef4444;
+  color:white;
+  padding:15px;
+  border-radius:10px;
+  font-weight:bold;
+  text-align:center;
+  box-shadow:0 4px 10px rgba(0,0,0,.3);
+}
+
+/* Recent Transactions */
+
+.recent-section{
+  margin-top:40px;
+  background:#1e293b;
+  padding:25px;
+  border-radius:16px;
+  box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+.recent-section h2{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.recent-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.recent-table th{
+  background:#334155;
+  padding:15px;
+  text-align:left;
+}
+
+.recent-table td{
+  padding:15px;
+  border-bottom:1px solid #475569;
+}
+
+.recent-table tr:hover{
+  background:#263449;
+}
