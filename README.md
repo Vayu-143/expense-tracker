@@ -90,6 +90,20 @@ expense-tracker/
 └── package.json
 ```
 
+## 📸 Screenshots
+
+### Login
+![Login](docs/login.png)
+
+### Dashboard
+![Dashboard](docs/dashboard.png)
+
+### Transactions
+![Transactions](docs/transactions.png)
+
+### Profile
+![Profile](docs/profile.png)
+
 ---
 
 # ⚙️ Installation
